@@ -78,8 +78,7 @@ select distinct team1_corr from matches_corrected;
 create table deliveries_v04 as select concat(id,'-',inning,'-',over,'-',ball) as ball_id, * from deliveries_v03; 
  
 --Task 22
-select count(distinct ball_id) from deliveries_v04; 
-select count(*) from deliveries_v04; 
+select count(*),count(distinct ball_id) from deliveries_v04; 
  
 --Task 23 
 create table deliveries_v05 as select *, row_number() over (partition by ball_id) as r_num from deliveries_v04; 
