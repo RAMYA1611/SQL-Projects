@@ -5,8 +5,8 @@
 In this project, I have used two datasets related to IPL (Indian Premier League) cricket matches. One dataset contains ball-by-ball data and the other contains match-wise data. I have imported the datasets into an SQL database and 
 perform the tasks given in this assignment to find important insights from this dataset.
 ## About the Data
-The first CSV file is for ball-by-ball data and it has information of all the 193468 balls bowled between the years 2008 and 2020. It has 17 columns and below is the details of those 17 columns:
-The second file contains match-wise data and has data of 816 IPL matches. This table has 17 columns and below is a short description of the columns in this table:
+The first CSV file is for ball-by-ball data and it has information of all the 193468 balls bowled between the years 2008 and 2020.
+The second file contains match-wise data and has data of 816 IPL matches.
 ## Tasks
 1)Create a table named ‘matches’ with appropriate data types for columns
 
